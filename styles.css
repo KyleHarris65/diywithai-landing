@@ -34,3 +34,26 @@ main {
     text-decoration: none;
     font-weight: bold;
 }
+
+section {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.trending .card, .how-it-works ol {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.trending .card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.how-it-works ol {
+  list-style-position: inside;
+  line-height: 1.6;
+}
